@@ -3,7 +3,6 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-import smtplib, ssl
 
 # chrome driver setup
 options = webdriver.ChromeOptions()
