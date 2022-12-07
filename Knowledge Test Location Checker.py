@@ -43,7 +43,7 @@ def emailLogin(): # returns the driver for sendEmail function to use
     driver.get('https://account.proton.me/login?language=en')
     sleep(2)
     username = driver.find_element_by_id('username')
-    username.send_keys(BOT EMAIL) 
+    username.send_keys(BOT EMAIL) # this is the email address of the bot. Using protonmail
     password = driver.find_element_by_id('password')
     password.send_keys(PASSWORD_HIDDEN)
     password.submit()
