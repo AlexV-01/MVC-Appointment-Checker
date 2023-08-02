@@ -28,7 +28,7 @@ month_order = {
 
 month_length = {
     "January": 7,
-    "February": 7,
+    "February": 8,
     "March": 5,
     "April": 5,
     "May": 3,
